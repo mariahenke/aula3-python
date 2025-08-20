@@ -1,0 +1,12 @@
+nota1 = int(input("Digite a primeira nota de 0 a 10: "))
+nota2 = int(input("Digite a segunda nota de 0 a 10: "))
+nota3 = int(input("Digite a terceira nota de 0 a 10: "))
+
+if nota1 >= 7 and nota2 >=7 and nota3 >= 7:
+        print("Aprovado")
+
+elif 7>nota1>=4 or 7>nota2>=4 or 7>nota3 >=4:
+    print("Recuperação")
+
+elif nota1 < 4 or nota2 < 4 or nota3 < 4:
+    print("Reprovado")

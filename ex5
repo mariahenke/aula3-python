@@ -1,0 +1,10 @@
+anos = int(input("Digite quantos anos de serviço: "))
+
+if 0<anos<=5:
+        print("Cargo: Júnior")
+
+elif 6<= anos <= 10:
+    print("Cargo: Pleno")
+
+elif anos>10:
+    print("Cargo: Senior")

@@ -1,0 +1,10 @@
+preco = float(input("Digite o valor da compra: "))
+
+if preco>200:
+        print("O valor final com desconto é de: ", preco-(preco*(20/100)))
+
+elif 100<= preco <= 200:
+    print("O valor final com desconto é de: ", preco-(preco*(10/100)))
+
+elif preco<100:
+    print("O valor final com desconto é de: ", preco)

@@ -1,0 +1,11 @@
+ladoA = int(input("Digite o lado A: "))
+ladoB = int(input("Digite o lado B: "))
+ladoC = int(input("Digite o lado C: "))
+
+if (ladoA + ladoB)>ladoC:
+        print("Forma um triângulo")
+
+else:
+        print("Não forma um triângulo")
+        
+        
